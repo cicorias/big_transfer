@@ -1,2 +1,10 @@
 *.npz
 __pycache__/
+
+venv/
+.venv/
+env/
+.env
+.env/
+data/
+logs/
