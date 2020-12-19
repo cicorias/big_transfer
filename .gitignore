@@ -8,3 +8,7 @@ env/
 .env/
 data/
 logs/
+
+
+.ipynb_checkpoints/
+.vscode/
