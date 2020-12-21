@@ -2,7 +2,7 @@
 export PYTHONPATH="$(dirname $(pwd))"
 echo "pypath=$PYTHONPATH"
 BSPLIT=4
-EVALEVERY=100
+EVALEVERY=50
 
 EX_PER_CLASS=5
 for S in 55 2 12 85 22
