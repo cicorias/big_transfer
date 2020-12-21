@@ -38,7 +38,9 @@ def get_mixup(dataset_size):
 
 
 def get_schedule(dataset_size):
-  if dataset_size < 20_000:
+  if dataset_size < 5_000:
+    return [10, 20, 50, 80, 100]
+  elif dataset_size < 20_000:
     return [100, 200, 300, 400, 500]
   elif dataset_size < 500_000:
     return [500, 3000, 6000, 9000, 10_000]
